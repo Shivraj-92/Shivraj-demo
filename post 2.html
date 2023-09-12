@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="te.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa fa-times" aria-hidden="true"></i>
+                <li><a href="school.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+            <img id="menu-btn" src="menu.jpg" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="m2.jpeg" alt="">
+                <h3>Leaen Javascript with india's best platform</h3>
+                <p>Certainly! Here's a comprehensive guide to learning JavaScript using some of India's best educational platforms, all within a single 700-word paragraph:
+                    <br>
+                    ---
+                    <br>
+                    Embarking on a journey to learn JavaScript, one of the most versatile and widely used programming languages, can be an enriching experience, especially when coupled with some of India's top educational platforms. **Coursera** stands out as a platform offering a plethora of JavaScript courses from esteemed institutions like the Indian School of Business and the University of Michigan. Their courses cover everything from the basics to advanced concepts, ensuring a well-rounded understanding of JavaScript. **Udemy**, another prominent platform, offers a wide range of JavaScript courses, including projects and exercises that provide hands-on experience. <br>Some instructors even bring in Indian context, making the learning experience more relatable for Indian learners. For a more structured and comprehensive approach, **edX** provides JavaScript courses in collaboration with institutions like the Indian Institute of Technology (IIT). These courses not only delve into JavaScript but also touch upon associated technologies like HTML and CSS. Additionally, **GeeksforGeeks**, a homegrown platform, offers a plethora of resources and tutorials on JavaScript, catering to beginners and seasoned developers alike. Their comprehensive articles and coding challenges are designed to sharpen your JavaScript skills. Furthermore, **freeCodeCamp**, though not exclusive to India, has a strong presence in the Indian developer community. Their interactive coding challenges and projects are a fantastic way to practice and apply JavaScript concepts. 
+                    <br>
+                    <br>
+                    As you dive into JavaScript, familiarize yourself with the basics: variables, data types, and control structures. Platforms like **Hackerrank** offer tailored JavaScript exercises and challenges to help you grasp these foundational concepts. Once you've got the hang of the basics, explore advanced topics like functions, objects, and asynchronous programming. **LeetCode** offers a range of JavaScript challenges, including those that involve algorithms and data structures, helping you refine your problem-solving skills. Moreover, platforms like **Codecademy** provide interactive lessons that allow you to write and run JavaScript code directly in the browser, offering immediate feedback and reinforcement of concepts.
+                    <br>
+                    <br>
+                    Given JavaScript's pivotal role in web development, understanding how it interacts with HTML and CSS is crucial. **Mozilla Developer Network (MDN)** offers an extensive JavaScript guide, enriched with examples and practical applications, making it an invaluable resource for web developers. Additionally, **W3Schools**, though not Indian-based, is widely used by Indian developers for its concise tutorials and hands-on examples.
+                    
+                    To stay updated with the latest trends and best practices, consider joining online communities and forums like **Stack Overflow** and **GitHub**, where Indian developers actively engage in discussions and collaborate on open-source JavaScript projects. This not only provides a platform for learning from others but also for contributing to the broader developer community.
+                    
+                    As you progress, consider attending workshops, webinars, and meetups organized by platforms like **Meetup.com** and tech communities like **Hasura**. These events often feature industry experts and thought leaders, offering insights into the latest JavaScript developments and trends.
+                    <br>
+                    <br>
+                    Finally, to solidify your knowledge, engage in personal projects. **GitHub** provides a platform for you to showcase your work and collaborate with other developers on open-source projects. Building a portfolio of projects demonstrates your proficiency in JavaScript and provides tangible evidence of your skills to potential employers.
+                    
+                    In summary, India's educational platforms and resources offer a diverse and dynamic ecosystem for learning JavaScript. From Coursera's structured courses to GeeksforGeeks' comprehensive tutorials and the interactive challenges on platforms like LeetCode and Hackerrank, there's a wealth of knowledge at your fingertips. Combine these resources with active participation in developer communities and hands-on projects, and you'll be well on your way to mastering JavaScript, a skill that holds immense value in the world of web development.
+                </p>
+                <a href="#">Read Next ?</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Job</li>
+            <li>Brand Assets</li>
+            <li>investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Experts</li>
+            <li>Research</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can turst us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yello">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2021 All right reserved | This template is made by Tech2etc</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>

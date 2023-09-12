@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="te.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa fa-times" aria-hidden="true"></i>
+                <li><a href="school.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+            <img id="menu-btn" src="menu.jpg" alt="">
+        </div>
+    </nav>
+
+    <section id="about-home">
+        <h2><big>About Techeduca/</big></h2>
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="f1.jpg" alt="" width="90%" height="60%">
+        </div>
+
+        <div class="about-text">
+            <h2>Welcome to Techeduca, Enhance your skills with best online course</h2>
+            <p>You can start and finish one of these popular courses in under a day - for free! Check out the below.. Take the course for free</p>
+            <div class="about-fe">
+                <img src="a1.jpg" alt="">
+                <div class="fe-text">
+                    <h5>400+ Courses</h5>
+                    <p>You can start and finish one of the popular course in under our site</p>
+                </div>
+            </div>
+
+            <div class="about-fe">
+                <img src="f2.jpg" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime Access</h5>
+                    <p>You can start and finish one of the popular course in under our site</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="fetaures">
+        <h1>Awesome fetaures</h1>
+        <p>Replenish man have thing gathering lights yieling shall you</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa fa-graduation-cap"></i>
+                <h3>Scholership Facility</h3>
+                <p>one make creepeth, man bearing theira firmament won't great haven</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>Hostel Facility</h3>
+                <p>one make creepeth, man bearing theira firmament won't great haven</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certification</h3>
+                <p>one make creepeth, man bearing theira firmament won't great haven</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Replenish man have thing gathering lights yieling shall you</p>
+        <div class="trust-img">
+            <img src="t1.jpg" alt="">
+            <img src="t2.jpg" alt="">
+            <img src="t3.jpg" alt="">
+            <img src="t4.png" alt="">
+            <img src="t5.jpg" alt="">
+            <img src="t6.jpg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Job</li>
+            <li>Brand Assets</li>
+            <li>investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Experts</li>
+            <li>Research</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can turst us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yello">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2021 All right reserved | This template is made by Tech2etc</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>
